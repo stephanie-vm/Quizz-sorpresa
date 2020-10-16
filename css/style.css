@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  border: 0;
+  margin: 0; }
+
+p, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+#nav ul {
+  list-style: none;
+  text-decoration: none;
+  background-image: url(./img/portada.jpg);
+  list-style: none;
+  float: left; }
+  #nav ul a {
+    text-decoration: none; }
+
+#Main-content-2 {
+  position: relative; }
+  #Main-content-2 p {
+    background-image: url(./img/bg.jpg); }
+
+#info {
+  position: absolute;
+  left: auto; }
+
+#footer {
+  background-color: #171717; }
+
+#footer {
+  padding: 5%;
+  position: relative; }
+  #footer li {
+    list-style: none;
+    float: left; }
+  #footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: normal;
+    font-size: 100%;
+    left: 28%; }
+  #footer p {
+    position: absolute;
+    padding-top: 2%;
+    left: 25%; }
+
+#footer li + li {
+  margin-left: 3%; }

@@ -1,0 +1,27 @@
+#footer{
+    background-color:#171717;
+}
+#footer{
+    li{
+        list-style: none;
+        float: left;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:white;
+        font-weight: normal;
+        font-size: 100%;
+        left: 28%;
+    }
+    padding: 5%;
+    position: relative;
+    p{
+        position: absolute;
+        padding-top: 2%;
+        left:25%;
+    }
+}
+#footer li +li{
+    margin-left:3%;
+}
